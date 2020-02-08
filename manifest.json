@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Open String",
+    "description": "以URL打开一个自定字符串.",
+    "version": "1.0",
+    "icons": {"128": "icon/icon128.png"},
+
+    "browser_action": {
+        "default_icon": "icon/icon128.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage", 
+        "tabs"
+    ]
+}
