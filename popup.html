@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>弹出窗口</title>
+<link rel="stylesheet" href="pure-min.css">
 <style>
     body {
-        min-width: 357px;
-        min-height: 30px;
-        background-color: blueviolet;
+        width: 512px;
+    }
+    #title {
+        margin-left: 1em;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 </style>
 </head>
 <body>
-    <img src="icon/icon128.png" alt="图片显示测试">
+    <form class="pure-form pure-form-aligned">
+        <legend><h4 id="title">输入字符与预设URL相组合:</h4></legend>
+    </form>
 </body>
-<script src="popup.js"></script>
+<script src="js/common.js"></script>
+<script src="js/popup.js"></script>
 </html>

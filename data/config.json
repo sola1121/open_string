@@ -1,0 +1,13 @@
+[{
+        "describe": "pixiv UID",
+        "url": "https://www.pixiv.net/users/%s"
+    },
+    {
+        "describe": "pixiv illustration",
+        "url": "https://www.pixiv.net/artworks/%s"
+    },
+    {
+        "describe": "pixiv noval",
+        "url": "http://www.pixiv.net/novel/show.php?id=%s"
+    }
+]

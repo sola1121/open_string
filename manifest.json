@@ -10,6 +10,12 @@
         "default_icon": "icon/icon128.png",
         "default_popup": "popup.html"
     },
+    "options_page": "options.html",  // chrome40版本之前
+    "options_ui":{
+        "page": "options.html",
+        "chrome_style": true   // 添加一些默认的样式，推荐使用
+    },
+
     "permissions": [
         "storage", 
         "tabs"
