@@ -9,5 +9,13 @@
     {
         "describe": "pixiv noval",
         "url": "http://www.pixiv.net/novel/show.php?id=%s"
+    },
+    {
+        "describe": "magnet",
+        "url": "magnet:?xt=urn:btih:%s"
+    },
+    {
+        "describe": "pan baidu [short]",
+        "url": "http://pan.baidu.com/s/%s"
     }
 ]

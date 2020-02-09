@@ -3,8 +3,9 @@
 
     "name": "Open String",
     "description": "以URL打开一个自定字符串.",
-    "version": "1.0",
+    "version": "0.5",
     "icons": {"128": "icon/icon128.png"},
+    "homepage_url": "https://github.com/sola1121/open_string_chrome_extension",
 
     "browser_action": {
         "default_icon": "icon/icon128.png",
@@ -13,7 +14,8 @@
     "options_page": "options.html",  // chrome40版本之前
     "options_ui":{
         "page": "options.html",
-        "chrome_style": true   // 添加一些默认的样式，推荐使用
+        "chrome_style": true,
+        "open_in_tab": true
     },
 
     "permissions": [
